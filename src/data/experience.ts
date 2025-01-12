@@ -75,7 +75,7 @@ export const EXPERIENCE: ExperienceProp[] = [
     dates: "CRM",
     title: "Nuxt Admin Dashboard",
     company: "Fullstack",
-    companyUrl: "crm.rcrdevelop.com",
+    companyUrl: "https://crm.rcrdevelop.com",
     description:
       "Desarrollo de un CRM basado en Nuxt con un panel de administración avanzado, que incluye visualizaciones de datos y gestión de usuarios. El backend fue construido con Node y MySQL, asegurando escalabilidad y rendimiento.",
     technologies: ["Nuxt", "Spring Boot", "MySQL", "Chart.js"],
