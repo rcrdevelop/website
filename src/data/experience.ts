@@ -2,6 +2,16 @@ import type { Props as ExperienceProp } from "../components/experience/props";
 
 export const EXPERIENCE: ExperienceProp[] = [
   {
+    dates: "Saas",
+    title: "Index Context",
+    company: "Fullstack",
+    companyUrl: "https://github.com/rcrdevelop/index-context",
+    description:
+      "Diseño y desarrollo de una herramienta SaaS para gestionar informacion compleja de múltiples tiendas en tiempo real. Utilicé Next y Java para la sincronización y Tailwind CSS para una interfaz atractiva y funcional.",
+    technologies: ["Next", "Java", "Tailwind CSS", "Openai"],
+    logo: "/logos/nextjs-icon-dark-background.svg",
+  },
+  {
     dates: "Ecommerce",
     title: "Shopify",
     company: "FullStack",
@@ -40,45 +50,5 @@ export const EXPERIENCE: ExperienceProp[] = [
       "Creación de un tema personalizado para Shopify, optimizado para SEO y alto rendimiento. El proyecto incluyó diseño desde cero con Liquid y Tailwind CSS, priorizando la velocidad de carga y la usabilidad.",
     technologies: ["Shopify", "Liquid", "Tailwind CSS"],
     logo: "/logos/shopify_glyph_white.svg",
-  },
-  {
-    dates: "Ecommerce",
-    title: "Ecommerce API with Node.js",
-    company: "Backend",
-    companyUrl: "https://github.com/rcrdevelop/headless",
-    description:
-      "Desarrollo de un backend escalable para eCommerce que gestiona inventarios, autenticación de usuarios y procesamiento de pedidos. Implementado con Node.js, Express y MongoDB, con soporte para JWT para autenticación segura.",
-    technologies: ["Nodejs", "MongoDB", "Nuxt"],
-    logo: "/logos/nuxt.svg",
-  },
-  {
-    dates: "Plugin",
-    title: "WordPress Plugin for Subscriptions",
-    company: "Backend",
-    companyUrl: "https://github.com/rcrdevelop/plugin-subscription-wordpress-stripe",
-    description:
-      "Creación de un plugin para WordPress que permite la gestión de contenidos basados en suscripción, con planes personalizables e integración de pagos a través de Stripe.",
-    technologies: ["WordPress", "PHP", "Stripe API"],
-    logo: "/logos/wordpress.png",
-  },
-  {
-    dates: "Saas",
-    title: "Index Context",
-    company: "Fullstack",
-    companyUrl: "https://github.com/rcrdevelop/index-context",
-    description:
-      "Diseño y desarrollo de una herramienta SaaS para gestionar informacion compleja de múltiples tiendas en tiempo real. Utilicé Next y Java para la sincronización y Tailwind CSS para una interfaz atractiva y funcional.",
-    technologies: ["Next", "Java", "Tailwind CSS", "Openai"],
-    logo: "/logos/nextjs-icon-dark-background.svg",
-  },
-  {
-    dates: "CRM",
-    title: "Nuxt Admin Dashboard",
-    company: "Fullstack",
-    companyUrl: "https://crm.rcrdevelop.com",
-    description:
-      "Desarrollo de un CRM basado en Nuxt con un panel de administración avanzado, que incluye visualizaciones de datos y gestión de usuarios. El backend fue construido con Node y MySQL, asegurando escalabilidad y rendimiento.",
-    technologies: ["Nuxt", "Spring Boot", "MySQL", "Chart.js"],
-    logo: "/logos/nuxt.svg",
-  },
+  }
 ];
